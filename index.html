@@ -2,11 +2,52 @@
 <html lang="en-GB">
   <head>
     <meta charset="utf-8">
-    <title>Excursion</title>
+    <title>basics</title>
     <meta name="author" content="Simone Waring">
-<meta name="description" content="This is a html css codecademy project called Excursion.">
+<meta name="description" content="">
     <link rel="stylesheet" href="resources/css/style.css" >
   </head>
   <body>
+    <header><h1>Head's up</h1></header>
+    <section>
+    <h2>Basic Boilerplate</h2>
+    <pre><code>
+      &lt;!DOCTYPE html&gt;
+      &lt;html lang="en-GB"&gt;
+        &lt;head&gt;
+          &lt;meta charset="utf-8"&gt;
+          &lt;title&gt;webpage title&lt;/title&gt;
+          &lt;meta name="author" content="Simone Waring"&gt;
+      &lt;meta name="description" content=""&gt;
+          &lt;link rel="stylesheet" href="resources/css/style.css" &gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;/body&gt;
+      &lt;/html&gt;
+      </code></pre>
+      </section>
+    <section>
+    <h2>CSS Notes</h2>
+    <p>Rember: All HTML elements are boxes made up of four components: a content container, padding, border, and margin</p>
+    <ul>
+      <li>Verticle margins collapse, larger margin wins</li>
+      <li><code>margin: 0 auto;</code> will centre horizontally</li>
+      <li><code>overflow-y: scroll;</code> will only show vertical scroll-bar</li>
+      <li><code>display: none;</code> will remove element from the web page</li>
+      <li><code>visibility: hidden;</code> will hide element from viewer but keep a place holder</li>
+    </ul>
+    <ul>
+      <li>By default, browsers use <code>box-sizing: content-box;</code></li>
+      <li>Better control comes from <code>* {box-sizing: border-box;}</code> where the height and width will be fixed and the border thickness + padding is included INSIDE the box</li>
+    </ul>
+    <p>5 properties for adjusting an elements position in the browser</p>
+    <ol>
+      <li><code>display</code> </li>
+      <li><code>clear</code> </li>
+      <li><code>float</code> </li>
+      <li><code>position</code> </li>
+      <li><code>z-index</code> </li>
+    </ol>
+  </section>
   </body>
 </html>
